@@ -4,350 +4,358 @@
 
 "Phrases"
 {	
-	"ResetMyRank"{
-		"zho"		"{NORMAL}你的排名已經重置"
+	"ResetMyRank"
+	{
+		"en"		"{NORMAL}Your rank has been reseted"
 	}
+	
 	"BombPickup"
 	{
 		"#format"	"{1:s},{2:d},{3:d}"
-		"zho"		"{PINK}{1}{PURPLE} ({2}) {NORMAL}撿起炸彈{GREEN}獲得 {3} 點{NORMAL}."
+		"en"		"{PINK}{1}{PURPLE} ({2}) {LIGHTGREEN}got {3} point(s) {NORMAL}for Picking up the Bomb."
 	}
+	
 	"BombDropped"
 	{
 		"#format"	"{1:s},{2:d},{3:d}"
-		"zho"		"{PINK}{1}{PURPLE} ({2}) {NORMAL}丟掉炸彈{RED}失去 {3} 點{NORMAL}."
+		"en"		"{PINK}{1}{PURPLE} ({2}) {RED}{RED}lost {3} point(s) {NORMAL}for Dropping the Bomb."
 	}
+	
 	"MVP"
 	{
 		"#format"	"{1:s},{2:d},{3:d}"
-		"zho"		"{PINK}{1}{PURPLE} ({2}) {NORMAL}是這回合的{RED}MVP,{GREEN}獲得 {3} 點{NORMAL}."
+		"en"		"{PINK}{1}{PURPLE} ({2}) {LIGHTGREEN}got {3} point(s) {NORMAL}for being the Most Valuable Player."
 	}
+	
 	"LostSuicide"
 	{
 		"#format"	"{1:s},{2:d},{3:d}"
-		"zho"		"{PINK}{1}{PURPLE} ({2}) {NORMAL}自殺,{RED}失去 {3} 點{NORMAL}."
+		"en"		"{PINK}{1}{PURPLE} ({2}) {RED}lost {3} point(s) {NORMAL}for Suiciding."
 	}
+	
 	"LostTK"
 	{
 		"#format"	"{1:s},{2:d},{3:d},{4:s}"
-		"zho"		"{PINK}{1}{PURPLE} ({2}) {NORMAL}擊殺隊友 {lightgreen}{4} {RED}失去 {3} 點{NORMAL}. "
+		"en"		"{PINK}{1}{PURPLE} ({2}) {RED}lost {3} point(s) {NORMAL}for Team Killing {PINK}{4}"
 	}
+	
 	"CT_VIPEscaped"
 	{
 		"#format"	"{1:d}"
-		"zho"		"{BLUE}反恐小組{NORMAL} 使VIP成功逃離,{GREEN}獲得 {1} 點{NORMAL}."
+		"en"		"{PINK}Counter-Terrorists{NORMAL} {LIGHTGREEN}got {1} points {NORMAL}for Escaping as VIP."
 	}
 	"VIPEscaped"
 	{
 		"#format"	"{1:s},{2:d},{3:d}"
-		"zho"		"{PINK}{1}{PURPLE} ({2}) {NORMAL}當VIP成功逃離,{GREEN}獲得 {3} 點{NORMAL}."
+		"en"		"{PINK}{1}{PURPLE} ({2}) {LIGHTGREEN}got {3} points {NORMAL}for Escaping as VIP."
 	}
 	"TR_VIPKilled"
 	{
 		"#format"	"{1:d}"
-		"zho"		"{YELLOW}恐怖份子{NORMAL} 刺殺VIP,{GREEN}獲得 {1} 點{NORMAL}."
+		"en"		"{PINK}Terrorists{NORMAL} {LIGHTGREEN}got {1} points {NORMAL}for Killing the VIP."
 	}
 	"VIPKilled"
 	{
 		"#format"	"{1:s},{2:d},{3:d}"
-		"zho"		"{PINK}{1}{PURPLE} ({2}) {NORMAL}刺殺VIP,{GREEN}獲得 {3} 點{NORMAL}."
+		"en"		"{PINK}{1}{PURPLE} ({2}) {LIGHTGREEN}got {3} points {NORMAL}for Killing the VIP."
 	}
 	
 	"GotPointsBy"
 	{
 		"#format"	"{1:s},{2:d},{3:d},{4:s}"
-		"zho"		"{PINK}{1}{PURPLE} ({2}) {NORMAL}因為 {4} {GREEN}獲得 {3} 點{NORMAL}."
+		"en"		"{PINK}{1}{PURPLE} ({2}) {LIGHTGREEN}got {3} point(s) for {NORMAL}{4}."
 	}
 
 	"IsRankedAt"
 	{
 		"#format"	"{1:s},{2:d},{3:d},{4:d},{5:d},{6:d},{7:.2f}"
-		"zho"		"玩家 {PINK} {1} {NORMAL}的排名是 {GREEN}{2}/{3} {NORMAL}, {PURPLE}{4} 點{NORMAL},{LIGHTGREEN} {5} 擊殺{NORMAL},{RED} {6} 死亡{NORMAL},{BLUE} KDR {7}{NORMAL}."
+		"zho"		"Player{PINK} {1} {NORMAL}is ranked at {GREEN}{2}/{3} {NORMAL}, {PURPLE}{4} points{NORMAL},{LIGHTGREEN} {5} kills{NORMAL},{RED} {6} deaths{NORMAL}, and{BLUE} KDR {7}{NORMAL}."
 	}
 	"Killing"
 	{
 		"#format"	"{1:s},{2:d},{3:d},{4:s},{5:d}"
-		"zho"		"{PINK}{1} {PURPLE}({2}) {NORMAL}擊殺 {PINK} {4} {PURPLE}({5}){NORMAL}, {GREEN}獲得 {3} 點{NORMAL}."
+		"en"		"{PINK}{1}{PURPLE} ({2}) {LIGHTGREEN}got {3} points for killing {lightgreen}{4} {NORMAL}({5})."
 	}
 	
 	"KillingKillerNotRanked"
 	{
 		"#format"	"{1:s},{2:d},{3:d},{4:s},{5:d},{6:d},{7:d}"
-		"zho"		"{PINK}{1} {PURPLE}({2})[{6}/{7}] {NORMAL}擊殺 {PINK}{4} {PURPLE}({5}){NORMAL}, {GREEN}獲得 {3} 點{NORMAL}."
+		"en"		"{PINK}{1}{PURPLE} ({2})[{6}/{7}] {LIGHTGREEN}got {3} points for killing {lightgreen}{4} {NORMAL}({5})."
 	}
 	"KillingVictimNotRanked"
 	{
 		"#format"	"{1:s},{2:d},{3:d},{4:s},{5:d},{6:d},{7:d}"
-		"zho"		"{PINK}{1} {PURPLE}({2}) {NORMAL}擊殺 {PINK}{4} {PURPLE}({5})[{6}/{7}]{NORMAL}, {GREEN}獲得 {3} 點{NORMAL}."
+		"en"		"{PINK}{1}{PURPLE} ({2}) {LIGHTGREEN}got {3} points for killing {lightgreen}{4} {NORMAL}({5})[{6}/{7}]."
 	}
 	"KillingBothNotRanked"
 	{
 		"#format"	"{1:s},{2:d},{3:d},{4:s},{5:d},{6:d},{7:d},{8:d},{9:d}"
-		"zho"		"{PINK}{1}{PURPLE} ({2})[{6}/{7}] {NORMAL}擊殺 {PINK}{4} {PURPLE}({5})[{8}/{9}] {GREEN}獲得 {3} 點{NORMAL}."
+		"en"		"{PINK}{1}{PURPLE} ({2})[{6}/{7}] {LIGHTGREEN}got {3} points for killing {lightgreen}{4} {NORMAL}({5})[{8}/{9}]."
 	}
 	"Headshot"
 	{
 		"#format"	"{1:s},{2:d},{3:d}"
-		"zho"		"{PINK}{1}{PURPLE} ({2}) {NORMAL}爆頭,{GREEN}獲得 {3} 點{NORMAL}."
+		"en"		"{PINK}{1}{PURPLE} ({2}) {LIGHTGREEN}got {3} point {NORMAL}for Headshot."
 	}
 	"TR_Planting"
 	{
 		"#format"	"{1:d}"
-		"zho"		"{YELLOW}恐怖份子{NORMAL} 放置炸彈,{GREEN}獲得 {1} 點{NORMAL}."
+		"en"		"{PINK}Terrorists{NORMAL} {LIGHTGREEN}got {1} points {NORMAL}for Planting the Bomb"
 	}
 	
 	"Planting"
 	{
 		"#format"	"{1:s},{2:d},{3:d}"
-		"zho"		"{PINK}{1}{PURPLE} ({2}) {NORMAL}放置炸彈,{GREEN}獲得 {3} 點{NORMAL}."
+		"en"		"{PINK}{1}{PURPLE} ({2}) {LIGHTGREEN}got {3} points {NORMAL}for Planting the Bomb."
 	}
 	"TR_Exploding"
 	{
 		"#format"	"{1:d}"
-		"zho"		"{YELLOW}恐怖份子{NORMAL} 引爆炸彈,{GREEN}獲得 {1} 點{NORMAL}."
+		"en"		"{PINK}Terrorists{NORMAL} {LIGHTGREEN}got {1} points {NORMAL}for Exploding the Bomb."
 	}
 	
 	"Exploding"
 	{
 		"#format"	"{1:s},{2:d},{3:d}"
-		"zho"		"{PINK} {1}{PURPLE} ({2}) {NORMAL}引爆炸彈,{GREEN}獲得 {3} 點{NORMAL}."
+		"en"		"{PINK}{1}{PURPLE} ({2}) {LIGHTGREEN}got {3} points {NORMAL}for Exploding the Bomb."
 	}
 	"CT_Defusing"
 	{
 		"#format"	"{1:d}"
-		"zho"		"{BLUE}反恐小組{NORMAL} 拆除炸彈,{GREEN}獲得 {1} 點{NORMAL}."
+		"en"		"{PINK}Counter-Terrorists{NORMAL} {LIGHTGREEN}got {1} points {NORMAL}for Defusing the Bomb."
 	}
 	
 	"Defusing"
 	{
 		"#format"	"{1:s},{2:d},{3:d}"
-		"zho"		"{PINK}{1}{PURPLE} ({2}) {NORMAL}拆除炸彈,{GREEN}獲得 {3} 點{NORMAL}."
+		"en"		"{PINK}{1}{PURPLE} ({2}) {LIGHTGREEN}got {3} points {NORMAL}for Defusing the Bomb."
 	}
 	
 	"CT_Hostage"
 	{
 		"#format"	"{1:d}"
-		"zho"		"{BLUE}反恐小組{NORMAL} 在這回合疏散人質{GREEN}獲得 {1} 點{NORMAL}."
+		"en"		"{PINK}Counter-Terrorists{NORMAL} {LIGHTGREEN}got {1} points {NORMAL}for Rescuing the Hostage."
 	}
 	
 	"Hostage"
 	{
 		"#format"	"{1:s},{2:d},{3:d}"
-		"zho"		"{PINK}{1}{PURPLE} ({2}) {NORMAL}在這回合疏散人質{GREEN}獲得 {3} 點{NORMAL}."
+		"en"		"{PINK}{1}{PURPLE} ({2}) {LIGHTGREEN}got {3} points {NORMAL}for Rescuing the Hostage."
 	}
 	
 	"CT_Round"
 	{
 		"#format"	"{1:d}"
-		"zho"		"{BLUE}反恐小組{NORMAL} 獲勝,在這回合{GREEN}得到 {1} 點{NORMAL}."
+		"en"		"{PINK}Counter-Terrorists{NORMAL} {LIGHTGREEN}got {1} points {NORMAL}for Winning the Round."
 	}
 	
 	"TR_Round"
 	{
 		"#format"	"{1:d}"
-		"zho"		"{YELLOW}恐怖份子{NORMAL} 獲勝,在這回合{GREEN}得到 {1} 點{NORMAL}."
+		"en"		"{PINK}Terrorists{NORMAL} {LIGHTGREEN}got {1} points {NORMAL}for Winning the Round."
 	}
 	
 //****************************************************   WARNING   *******************************************************
-//********************************************   NO COLORS  BELOW THIS LINE   ********************************************
+//********************************************   NO COLORS  BELOW THIS LINE   ********************************************	
+	
+	"Deaths"
+	{
+		"en"		"Deaths"
+	}
 
+
+	"Kills"
+	{
+		"en"		"Kills"
+	}
+
+	"VIPStats"
+	{
+		"en"		"VIP Statistics"
+	}
+	"VIPEscapes"
+	{
+		"en"		"Escapes as VIP"
+	}
+	"VIPsKilled"
+	{
+		"en"		"VIPs Killed"
+	}
+
+	
+	
 	"Showing"
 	{
 		"#format"	"{1:d},{2:d},{3:d}"
-		"zho"		"顯示從 {1} 到 {2} ,共 {3}\n"
+		"en"		"Showing from {1} to {2} of {3}\n"
 	}
 	
 	"Next"
 	{
-		"zho"		"下一頁"
+		"en"		"Next"
 	}
 	
 	"Back"
 	{
-		"zho"		"前一頁"
+		"en"		"Back"
 	}
 	
 	"KnifeKills"
 	{
-		"zho"		"刀子擊殺"
+		"en"		"Knife Kills"
 	}
 	
 	"TaserKills"
 	{
-		"zho"		"電擊槍擊殺"
+		"en"		"Taser Kills"
 	}
 	
 	"NotRanked"
 	{
 		"#format"	"{1:d},{2:d}"
-		"zho"		"你還沒被列入排名,你需要 {2} 殺才能進入排名. 現在 {1}."
+		"en"		"Not ranked yet. You need {2} kills for entering the rank. Current {1}."
 	}
 	
 	"Position"
 	{
-		"zho"		"位置"
+		"en"		"Position"
 	}
 	
 	"Points"
 	{
-		"zho"		"點數"
+		"en"		"Points"
 	}
 	
 	"BasicStats"
 	{
-		"zho"		"基本統計"
+		"en"		"Basic Stats"
 	}
 	
 	"KillsDeaths"
 	{
 		"#format"	"{1:d},{2:d}"
-		"zho"		"擊殺: {1}   死亡: {2}"
+		"en"		"Kills: {1}   Deaths: {2}"
 	}
 	
 	"Suicides"
 	{
-		"zho"		"自殺"
+		"en"		"Suicides"
 	}
 	
 	"RoundStats"
 	{
-		"zho"		"回合統計"
+		"en"		"Rounds Stats"
 	}
 	
 	"TRWins"
 	{
-		"zho"		"恐怖獲勝"
+		"en"		"TR's Wins"
 	}
 	
 	"CTWins"
 	{
-		"zho"		"反恐獲勝"
+		"en"		"CT's Wins"
 	}
 	
 	"HitStats"
 	{
-		"zho"		"射擊統計"
+		"en"		"Hit Stats"
 	}
 	
 	"Shots"
 	{
-		"zho"		"射擊數"
+		"en"		"Shots"
 	}
 	
 	"Hits"
 	{
-		"zho"		"擊中數"
+		"en"		"Hits"
 	}
 	
 	"Accuracy"
 	{
-		"zho"		"準度"
+		"en"		"Accuracy"
 	}
 	
 	"BombHostagesStats"
 	{
-		"zho"		"炸彈/人質 統計"
+		"en"		"Bombs/Hostages Stats"
 	}
 	
 	"PlantedBombs"
 	{
-		"zho"		"放置炸彈"
+		"en"		"Planted Bombs"
 	}
 	
 	"DefusedBombs"
 	{
-		"zho"		"拆除炸彈"
+		"en"		"Defused Bombs"
 	}
 	
 	"ExplodedBombs"
 	{
-		"zho"		"炸彈爆炸"
+		"en"		"Exploded Bombs"
 	}
 	
 	"RescuedHostages"
 	{
-		"zho"		"救援人質"
+		"en"		"Rescued Hostages"
 	}
 	
 	"OtherStats"
 	{
-		"zho"		"其他統計"
+		"en"		"Other Stats"
 	}
 	
 	"TimeConnected"
 	{
 		"#format"	"{1:d},{2:d},{3:d}"
-		"zho"		"遊玩時間: {1} 小時, {2} 分, {3} 秒"
+		"en"		"Time connected: {1} hours, {2} minutes, {3} seconds"
 	}
 	
 	"Head"
 	{
-		"zho"		"頭"
+		"en"		"Head"
 	}
 	
 	"Chest"
 	{
-		"zho"		"胸"
+		"en"		"Chest"
 	}
 	
 	"Stomach"
 	{
-		"zho"		"腹"
+		"en"		"Stomach"
 	}
 	
 	"LeftArm"
 	{
-		"zho"		"左手"
+		"en"		"Left Arm"
 	}
 	
 	"LeftLeg"
 	{
-		"zho"		"左腳"
+		"en"		"Left Leg"
 	}
 	
 	"RightArm"
 	{
-		"zho"		"右手"
+		"en"		"Right Arm"
 	}
 	
 	"RightLeg"
 	{
-		"zho"		"右腳"
+		"en"		"Right Leg"
 	}
 	
 	"Next9Players"
 	{
-		"zho"		"上面9個玩家"
+		"en"		"Next 9 players"
 	}
 	
 	"WeaponsStats"
 	{
-		"zho"		"武器統計"
-	}
-	
-	"VIPStats"
-	{
-		"zho"		"VIP統計"
-	}
-	
-	"VIPEscapes"
-	{
-		"zho"		"當VIP逃離"
-	}
-	
-	"VIPsKilled"
-	{
-		"zho"		"VIP刺殺"
-	}
-	
-	"Kills"
-	{
-		"zho"		"擊殺數"
-	}
-	
-	"Deaths"
-	{
-		"zho"		"死亡數"
+		"en"		"Weapon Statistics"
 	}
 }
  
